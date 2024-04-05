@@ -1,0 +1,108 @@
+/* Write some CSS below */
+body {
+    background-color: #fffdfb; 
+    background: -webkit-linear-gradient(to top,#3A1C71,#FFAF7B, #D76D77);
+    background: linear-gradient(to top,#3A1C71,#FFAF7B, #D76D77);
+    font-size: 16px;
+    color: rgb(98, 88, 88);
+    font-family: "poppins";
+    text-align: center;
+}
+h1, h2 {
+    font-family: "oswald";
+}
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+}
+.button1 {
+    text-decoration: none; 
+    color: rgb(248, 245, 245) ;
+    background-color:rgb(150, 121, 176) ;
+    padding: 5px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+a:hover {
+    background-color: hwb(160 50% 0%);
+    color: rgb(98, 88, 88) ;
+}
+a {
+    text-decoration: none; 
+}
+h2 {
+    font-size: 24px;
+    color: rgb(150, 121, 176);
+    font-weight: 400;
+}
+.card-white {
+    background-color: #fef3e1;
+    margin: 20px auto;
+    width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 10px 20px rgb(150, 121, 176);
+    border: 1px solid rgb(150, 121, 176);
+}
+.img-circle {
+    border-radius: 50%;
+    height: 200px;
+    object-fit: cover;
+}
+.list-inline {
+    font-size: 60px;
+    display: inline;
+    padding-left: 0;
+}
+.list-inline li {
+    font-size: 60px;
+    display: inline;
+    padding: 20px;
+    background-color:#fef3e1 ;
+}
+.list-inline i {
+    text-align: center;
+}  
+.list-inline a:hover {
+    color: rgb(82, 5, 5);
+} 
+.list-footer {
+    font-size: 60px;
+    display: inline;
+    padding: 20px;
+    text-align: center;
+}
+.cards-emoji{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    font-size: xx-large;
+}
+.emoji{
+    background-color: #fef3e1; 
+    border-radius: 10px;
+    padding: 10px;
+    ;
+    border: 1px solid rgb(150, 121, 176);  
+}
+.list-inline a {
+    text-decoration: none;
+
+}
+.list-inline a:hover {
+    background-color: transparent;
+    color: rgb(239, 156, 248) ;
+}
+.effect{
+    transition: 0.5s;
+}
+ 
+.effect:hover{
+    box-shadow: 0 0 30px rgb(150, 121, 176);
+    transform: scale(1.05);
+
+}
